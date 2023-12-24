@@ -1,0 +1,152 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color:black;
+    color: #fff;
+    padding: 10px 1;
+    height: 90px;
+}
+
+nav ul {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    list-style: none;
+    padding-left: 10px;
+    margin: 0;
+    text-align: left;
+}
+nav li {
+    float: center;
+    font-size: 1.8rem;
+    padding: 25px;
+    padding-inline-end: 1px;
+    display: inline-table;
+    margin: 0 20px;
+    justify-content: space-evenly;
+}
+nav a {
+    text-decoration: none;
+    color:floralwhite;
+}
+nav ul li a:hover{
+    color:orangered;
+    font-size: 2.01rem;
+}
+
+#hero {
+    background-image: url('.jpg');
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 520px 0;
+    font-size: 20px;
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+p {
+    font-size: 25px;
+    padding-top: 10px;
+    margin: 30px 0;
+}
+
+.cta-button {
+    display: inline-block;
+    padding-top: 10px;
+    padding: 15px 30px;
+    background-color: #ff6600;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+#pricing, #contact {
+    text-align: center;
+    padding: 100px 0;
+    color: white;
+}
+#wallets{
+text-align: center;
+    padding: 100px 0;
+    padding-top: 10px;
+    color: white;
+}
+.pricing-plan {
+    display: inline-block;
+    width: 20%;
+    padding: 20px;
+    margin: 10px;
+    font-size: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    color: black;
+}
+
+.wallet{
+display: inline-block;
+    width: 50%;
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+    background-color: teal;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    color: white;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 40px;
+
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 7px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #ff6600;
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #ff9933;
+}
+
+
+

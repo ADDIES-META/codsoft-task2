@@ -1,0 +1,53 @@
+#image1{
+          position: relative;
+          padding-left: 10px;
+          padding-top: 40px;
+          
+
+        }
+
+#icon{
+       position: relative;
+       padding-right: 20px;
+       padding-top: 20px;
+ 
+}
+
+#text1{
+   position: relative;
+
+          top: 20px;
+          left: 140px;
+          }
+#text2{
+   position: relative;
+
+          top: 30px;
+          left: 170px;
+
+          }
+#text3{
+  width: 100%;
+  padding-top: 2%;
+   padding-left: 160px;
+   padding-right: 160px;
+}
+#image2{
+          position: relative;
+
+          top: 0px;
+          left: 270px;
+
+        }
+
+#text4{
+
+  position: absolute;
+  top: 400px;
+  right: 160px;
+}
+#icon{
+  position: relative;
+  padding-top: 50px;
+  right:3px;
+}
